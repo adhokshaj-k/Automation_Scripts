@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: kmsda-vktkw
+created: 2026-09-28T20:07:43+05:30
