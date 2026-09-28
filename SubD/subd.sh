@@ -122,7 +122,7 @@ sort -u "$domain-subdout/$domain-sub.txt" > "$domain-subdout/$domain-all-subdoma
 
 # HTTP probing with more options
 echo "[+] Probing HTTP services..."
-cat "$domain-subdout/$domain-all-subdomains.txt" | httpx -sc -fr > $domain-subdout/$domain-httpx.txt
+cat "$domain-subdout/$domain-all-subdomains.txt" | ~/go/bin/httpx -sc -fr > $domain-subdout/$domain-httpx.txt
 
 # Create separate files for different status codes
 echo "[+] Categorizing results..."
